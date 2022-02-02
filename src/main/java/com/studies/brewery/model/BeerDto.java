@@ -1,4 +1,4 @@
-package com.studies.beer.order.service.web.model;
+package com.studies.brewery.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

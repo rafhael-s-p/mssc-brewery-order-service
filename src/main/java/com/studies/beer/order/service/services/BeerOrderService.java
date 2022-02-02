@@ -18,8 +18,8 @@
 package com.studies.beer.order.service.services;
 
 
-import com.studies.beer.order.service.web.model.BeerOrderDto;
-import com.studies.beer.order.service.web.model.BeerOrderPagedList;
+import com.studies.brewery.model.BeerOrderDto;
+import com.studies.brewery.model.BeerOrderPagedList;
 import org.springframework.data.domain.Pageable;
 
 import java.util.UUID;

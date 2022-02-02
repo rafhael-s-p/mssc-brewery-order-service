@@ -18,7 +18,7 @@
 package com.studies.beer.order.service.web.mappers;
 
 import com.studies.beer.order.service.domain.BeerOrder;
-import com.studies.beer.order.service.web.model.BeerOrderDto;
+import com.studies.brewery.model.BeerOrderDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

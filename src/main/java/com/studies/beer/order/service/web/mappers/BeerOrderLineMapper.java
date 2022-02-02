@@ -1,7 +1,7 @@
 package com.studies.beer.order.service.web.mappers;
 
 import com.studies.beer.order.service.domain.BeerOrderLine;
-import com.studies.beer.order.service.web.model.BeerOrderLineDto;
+import com.studies.brewery.model.BeerOrderLineDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 
