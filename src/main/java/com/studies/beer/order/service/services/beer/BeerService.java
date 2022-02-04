@@ -1,4 +1,4 @@
-package com.studies.beer.order.service.services;
+package com.studies.beer.order.service.services.beer;
 
 import com.studies.brewery.model.BeerDto;
 
