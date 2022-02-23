@@ -7,6 +7,7 @@ import com.studies.beer.order.service.domain.BeerOrderStatusEnum;
 import com.studies.beer.order.service.repositories.BeerOrderRepository;
 import com.studies.beer.order.service.services.BeerOrderManagerImpl;
 import com.studies.beer.order.service.web.mappers.BeerOrderMapper;
+import com.studies.brewery.model.events.AllocateOrderRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.core.JmsTemplate;

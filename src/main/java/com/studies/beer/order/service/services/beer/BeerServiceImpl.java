@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Optional;
 import java.util.UUID;
 
-@ConfigurationProperties(prefix = "sfg.brewery", ignoreUnknownFields = false)
+@ConfigurationProperties(prefix = "studies.brewery", ignoreUnknownFields = false)
 @Service
 public class BeerServiceImpl implements BeerService {
 

@@ -32,6 +32,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CustomerDto {
+
     @JsonProperty("id")
     private UUID id = null;
 
@@ -45,5 +46,8 @@ public class CustomerDto {
     @JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ssZ", shape=JsonFormat.Shape.STRING)
     @JsonProperty("lastModifiedDate")
     private OffsetDateTime lastModifiedDate = null;
+
+    private String name;
+
 }
 

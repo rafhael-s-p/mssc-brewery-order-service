@@ -1,7 +1,7 @@
 package com.studies.beer.order.service.testcomponents;
 
 import com.studies.beer.order.service.config.JmsConfig;
-import com.studies.beer.order.service.sm.actions.AllocateOrderRequest;
+import com.studies.brewery.model.events.AllocateOrderRequest;
 import com.studies.brewery.model.events.AllocateOrderResult;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

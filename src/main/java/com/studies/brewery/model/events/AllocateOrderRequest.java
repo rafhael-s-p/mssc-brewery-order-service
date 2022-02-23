@@ -1,4 +1,4 @@
-package com.studies.beer.order.service.sm.actions;
+package com.studies.brewery.model.events;
 
 import com.studies.brewery.model.BeerOrderDto;
 import lombok.AllArgsConstructor;
@@ -11,7 +11,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class AllocateOrderRequest {
-
     private BeerOrderDto beerOrderDto;
-
 }
