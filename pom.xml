@@ -4,33 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.sfg-beer-works</groupId>
-        <artifactId>sfg-brewery-bom</artifactId>
-        <version>1.0.17</version>
+        <groupId>io.github.RafhaelSouza</groupId>
+        <artifactId>mssc-brewery-bom</artifactId>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>mssc-beer-order-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mssc-beer-order-service</name>
     <description>MSSC Beer Order Service</description>
-
-    <licenses>
-        <license>
-            <name>GNU General Public License v3.0</name>
-            <url>https://www.gnu.org/licenses/gpl.txt</url>
-        </license>
-    </licenses>
-
-    <organization>
-        <name>Rafhael Studies</name>
-    </organization>
-
-    <developers>
-        <developer>
-            <name>Rafhael</name>
-            <organization>Rafhael Studies</organization>
-        </developer>
-    </developers>
 
     <dependencies>
         <dependency>
